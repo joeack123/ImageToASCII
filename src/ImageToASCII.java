@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ImageToASCII {
     public static void main(String[] args) throws IOException {
-        BufferedImage img = ImageIO.read(new File("C:/Users/joeac/Desktop/img01.png"));
+        BufferedImage img = ImageIO.read(new File("your_file_path"));
         String s = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\\\"^`.";
         for(int y=0;y<img.getHeight();y++) {
             System.out.println();
